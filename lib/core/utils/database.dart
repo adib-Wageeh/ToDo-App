@@ -22,8 +22,10 @@ Future<Either<String,List<Date>>> getDates()async{
   try{
     Box db = await _openBox();
     for(int x=0;x<db.length;x++){
-      dates.add(db.getAt(x));
-    }
+
+        dates.add(db.getAt(x));
+      }
+    dates.sort((a,b)=>b.dateTime.compareTo(a.dateTime));
 
   }on HiveError catch(e){
     return Left(e.message);
@@ -78,6 +80,8 @@ Future<Either<String,Date>> getToDos(Date date)async{
   try {
     Box db = await _openBox();
     newDate = db.get(date.key);
+    List<Date> dates =[];
+
   }catch(e){
     return Left(e.toString());
   }

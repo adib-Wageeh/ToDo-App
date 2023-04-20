@@ -54,6 +54,7 @@ class ListTodos extends StatelessWidget {
                         showModalBottomSheet(
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
                           context: context,
+                          isScrollControlled: true,
                           builder: (context)=> ShowBottomSheet(onDeleteTabbed: (){
     BlocProvider.of<TodoCubit>(context).deleteToDo(date,task);
     Navigator.of(context).pop();

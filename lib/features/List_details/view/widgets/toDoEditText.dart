@@ -17,17 +17,16 @@ class ToDoEditText extends StatelessWidget {
   Widget build(BuildContext context) {
     late String editedText;
     return Padding(
-      padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+      padding: EdgeInsets.only(bottom: (MediaQuery.of(context).viewInsets.bottom) ),
       child: Container(
-        height:150,
+        height: 140,
         decoration: BoxDecoration(borderRadius: BorderRadius.circular(22)),
         child: Form(
           key: _formKey,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
+          child: ListView(
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 36.0,vertical: 8),
+                padding: const EdgeInsets.symmetric(horizontal: 36.0),
                 child: TextFormField(
                   initialValue: task.taskName,
                   validator: (val){
@@ -49,6 +48,7 @@ class ToDoEditText extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Assets.floatingActionButtonColor
+
               ), child: const Text(
                   editButtonText
               ),

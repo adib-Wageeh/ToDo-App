@@ -6,7 +6,7 @@ import '../../features/List_details/viewmodel/toDo_bloc/todo_cubit.dart';
 import '../../features/homepage/model/date.dart';
 import '../../features/homepage/presentation/viewModel/dates_bloc/dates_cubit.dart';
 
-class GlobalFunctions {
+mixin GlobalFunctions {
 
   static Future<DateTime?> bottomDateChanger({required BuildContext context,
       Date? dateObject}) async {

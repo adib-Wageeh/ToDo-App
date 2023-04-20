@@ -8,7 +8,7 @@ import '../../homepage/model/date.dart';
 import '../../global_widgets/floating_button_widget.dart';
 import '../viewmodel/toDo_bloc/todo_cubit.dart';
 
-class DateDetails extends StatelessWidget {
+class DateDetails extends StatelessWidget with GlobalFunctions{
   final Date date;
   const DateDetails({Key? key, required this.date}) : super(key: key);
 

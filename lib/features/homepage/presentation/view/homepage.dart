@@ -7,7 +7,7 @@ import 'package:to_do_1/features/homepage/presentation/viewModel/dates_bloc/date
 import '../../../../constants.dart';
 import '../../../../core/functions/global_functions.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatelessWidget with GlobalFunctions{
   const HomePage({Key? key}) : super(key: key);
 
   @override
