@@ -6,11 +6,11 @@ ToDo app is an app to create ToDo dates and add Activites inside the enabling yo
 
 using Mvvm architecture, bloc pattern for business logic and Hive for local storage.
 
-![Screenshot_20230422_005741](https://user-images.githubusercontent.com/87152219/233746878-ca368f3c-0627-427b-920e-e329b7c61354.jpg)
 
-![Screenshot_20230422_005750](https://user-images.githubusercontent.com/87152219/233746888-a04e06da-3d4e-483b-86a8-0c5a67a6ddb5.jpg)
+![Screenshot_20230422_005741](https://user-images.githubusercontent.com/87152219/233747158-723fae22-d4eb-4c5c-8313-7594900ee43c.jpg)
 
-![Screenshot_20230422_005812](https://user-images.githubusercontent.com/87152219/233746893-54775ea7-fbfc-4083-b6cd-738a96851e6d.jpg)
+![Screenshot_20230422_005750](https://user-images.githubusercontent.com/87152219/233747168-74ced61e-5e12-40d4-ac8d-49607ea1a2e2.jpg)
 
-![Screenshot_20230422_005818](https://user-images.githubusercontent.com/87152219/233746896-4541e374-64ef-48c8-b8aa-70b0ee31ff31.jpg)
+![Screenshot_20230422_005812](https://user-images.githubusercontent.com/87152219/233747179-803452db-b282-41df-915f-729aad8498b7.jpg)
 
+![Screenshot_20230422_005818](https://user-images.githubusercontent.com/87152219/233747185-de9971ee-6256-4748-ae33-34a82c002551.jpg)
