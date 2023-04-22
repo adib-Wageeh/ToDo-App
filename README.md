@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-ToDo app is an app to create ToDo dates and add Activites inside the enabling you the rename and delete both ToDo date and activites
+ToDo app is an app that creates ToDo dates and add Activites inside it, enabling you to rename and delete both ToDo date and activites.
 
 using Mvvm architecture, bloc pattern for business logic and Hive for local storage.
 
